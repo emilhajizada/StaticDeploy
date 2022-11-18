@@ -1,0 +1,135 @@
+.head {
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    top: 60px;
+    margin-left: 100px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.body {
+    background-color: black;
+    height: 350px;
+    width: 150px;
+    top: 250px;
+    margin-left: 100px;
+    position: absolute;
+    border-radius: 5%;
+}
+
+.left-arm {
+    background-color: black;
+    height: 230px;
+    width: 25px;
+    top: 250px;
+    margin-left: 60px;
+    position: absolute;
+}
+
+.hitler {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-left: 550px;
+    top: 30px;
+}
+
+.right-arm {
+    background-color: black;
+    height: 230px;
+    width: 25px;
+    top: 250px;
+    margin-left: 270px;
+    position: absolute;
+    animation-name: right;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+
+@keyframes right {
+    0% {
+        transform-origin: top left;
+        transform: rotate(-0.5turn);
+    }
+
+    100% {
+        transform-origin: top left;
+        transform: rotate(0.0turn);
+    }
+}
+
+.left-leg {
+    background-color: black;
+    height: 220px;
+    width: 40px;
+    top: 620px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.right-leg {
+    background-color: black;
+    height: 220px;
+    width: 40px;
+    top: 620px;
+    margin-left: 210px;
+    position: absolute;
+}
+
+.left-eye {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    top: 110px;
+    margin-left: 145px;
+    border-radius: 100%;
+    position: absolute;
+    animation-name: eye;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes eye {
+
+    from {
+        height: 0px;
+    }
+
+    to {
+        height: 30px;
+
+    }
+}
+
+.right-eye {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    top: 110px;
+    margin-left: 205px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.mouth-1 {
+    background-color: white;
+    height: 20px;
+    width: 40px;
+    top: 170px;
+    margin-left: 156px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.mouth-2 {
+    background-color: black;
+    height: 20px;
+    width: 40px;
+    top: 175px;
+    margin-left: 157px;
+    border-radius: 100%;
+    position: absolute;
+}
